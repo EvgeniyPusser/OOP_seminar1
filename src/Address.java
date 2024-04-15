@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Address {
+public class Address {
+    String city;
+    int house;
+    String street;
 }
