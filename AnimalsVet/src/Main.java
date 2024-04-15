@@ -25,6 +25,9 @@ public class Main {
 //        cat.play();
 //        cat.sleep();
         cat.lifeCircle();
+        cat.slither();
+        dog.slither();
+        cat.fly();
 
         }
     }

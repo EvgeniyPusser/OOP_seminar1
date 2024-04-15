@@ -70,4 +70,10 @@ public class Animal {
         play();
         sleep();
     }
+    public void slither(){
+        System.out.println("I slither so weird... to bite youuu!!!!");
+    }
+    public void fly(){
+        System.out.print("I hover above you all.");
+    }
 }
