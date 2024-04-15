@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3329bfb-5781-4d5d-b318-9fac8fb019a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalsVet/AnimalsVet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalsVet/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalsVet/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalsVet/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalsVet/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_seminar1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3329bfb-5781-4d5d-b318-9fac8fb019a6" name="Changes" comment="First lesson" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EvgeniyPusser/Animals.git",
+    "accountId": "5728e25b-1ee7-4213-9b9a-4f9149e16c39"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -89,9 +80,20 @@
       <option name="presentableId" value="Default" />
       <updated>1713201268440</updated>
     </task>
+    <task id="LOCAL-00001" summary="First lesson">
+      <option name="closed" value="true" />
+      <created>1713216965663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713216965663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="First lesson" />
   </component>
 </project>
