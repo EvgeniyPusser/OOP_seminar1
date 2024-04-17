@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3329bfb-5781-4d5d-b318-9fac8fb019a6" name="Changes" comment="First lesson">
+    <list default="true" id="c3329bfb-5781-4d5d-b318-9fac8fb019a6" name="Changes" comment="Fly and slither">
+      <change afterPath="$PROJECT_DIR$/AnimalsVet/src/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalsVet/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalsVet/src/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalsVet/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalsVet/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnimalsVet/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalsVet/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "EvgeniyPusser"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EvgeniyPusser&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EvgeniyPusser/Animals.git",
-    "accountId": "5728e25b-1ee7-4213-9b9a-4f9149e16c39"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EvgeniyPusser/Animals.git&quot;,
+    &quot;accountId&quot;: &quot;5728e25b-1ee7-4213-9b9a-4f9149e16c39&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2f976ezteYD7GAXooVTn2HGHVzN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713217642685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fly and slither">
+      <option name="closed" value="true" />
+      <created>1713220052518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713220052518</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="First lesson" />
+    <MESSAGE value="Fly and slither" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fly and slither" />
   </component>
 </project>

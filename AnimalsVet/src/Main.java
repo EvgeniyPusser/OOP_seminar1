@@ -29,5 +29,10 @@ public class Main {
         dog.slither();
         cat.fly();
 
+        Snake cobra = new Snake("Nagaina",LocalDate.of(2024, 6, 23),
+                new ArrayList<>(), "no", "Gugenheim");
+        cobra.slither();
+        cobra.fly();
+
         }
     }
