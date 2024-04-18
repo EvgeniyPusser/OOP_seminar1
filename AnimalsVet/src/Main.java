@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -7,12 +8,12 @@ import java.util.Objects;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Cat cat = new Cat("Murzik", LocalDate.of(1990, 6, 12),
+        Cat cat = new Cat("Murzik", "Dog", LocalDate.of(1990, 6, 12),
                 new ArrayList<>(),"Chumka", "Petrov", 4);
         System.out.println(cat);
         System.out.print(cat.getLegsCount());
 
-        Animal dog = new Dog("Zver", LocalDate.of(1990, 6, 12),
+        Animal dog = new Dog("Zver", "Dog",LocalDate.of(1990, 6, 12),
                 new ArrayList<>(),"Chumka", "Petrov");
 
         List<Animal> animals = new ArrayList<>();
@@ -29,10 +30,19 @@ public class Main {
         dog.slither();
         cat.fly();
 
-        Snake cobra = new Snake("Nagaina",LocalDate.of(2024, 6, 23),
+        Snake cobra = new Snake("Nagaina", "Snake", LocalDate.of(2024, 6, 23),
                 new ArrayList<>(), "no", "Gugenheim");
         cobra.slither();
         cobra.fly();
+
+        Animal ano = new Animal("Y", "Animal",
+                LocalDate.of(2000, 3, 12),
+                Collections.singletonList("Hssuiui"), "yyy", "Uy") {
+            @Override
+            public void lifeCircle() {
+
+            }
+        };
 
         }
     }

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3329bfb-5781-4d5d-b318-9fac8fb019a6" name="Changes" comment="Fly and slither">
-      <change afterPath="$PROJECT_DIR$/AnimalsVet/src/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalsVet/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalsVet/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3329bfb-5781-4d5d-b318-9fac8fb019a6" name="Changes" comment="Smth new about slither and fly" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713220052518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Smth new about slither and fly">
+      <option name="closed" value="true" />
+      <created>1713365950957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713365950957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +145,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First lesson" />
     <MESSAGE value="Fly and slither" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fly and slither" />
+    <MESSAGE value="Smth new about slither and fly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smth new about slither and fly" />
   </component>
 </project>

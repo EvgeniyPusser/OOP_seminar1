@@ -1,15 +1,17 @@
 import java.time.LocalDate;
 import java.util.List;
 
-public class Animal {
+public abstract class Animal {
     protected String name;
+    protected String type;
     protected LocalDate birthDate;
     protected List<String> vaccinates;
     protected String illness;
     protected String owner;
 
-    public Animal(String name, LocalDate birthDate, List<String> vaccinates, String illness, String owner) {
+    public Animal(String name, String type, LocalDate birthDate, List<String> vaccinates, String illness, String owner) {
         this.name = name;
+        this.type = getClass().getSimpleName();
         this.birthDate = birthDate;
         this.vaccinates = vaccinates;
         this.illness = illness;
@@ -40,6 +42,7 @@ public class Animal {
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +
+                " type=" + type +
                 ", birthDate=" + birthDate +
                 ", vaccinates=" + vaccinates +
                 ", illness='" + illness + '\'' +
@@ -64,12 +67,12 @@ public class Animal {
     private void sleep(){
         System.out.println("Animal is sleeping.");
     }
-    public void lifeCircle(){
-        wakeUp();
-        eat();
-        play();
-        sleep();
-    }
+    public abstract void lifeCircle();//{
+//        wakeUp();
+//        eat();
+//        play();
+//        sleep();
+   // }
     public void slither(){
         System.out.println("I slither so weird... to bite youuu!!!!");
     }
