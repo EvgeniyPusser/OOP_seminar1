@@ -9,7 +9,7 @@ public abstract class Animal {
     protected String illness;
     protected String owner;
 
-    public Animal(String name, String type, LocalDate birthDate, List<String> vaccinates, String illness, String owner) {
+    public Animal(String name, LocalDate birthDate, List<String> vaccinates, String illness, String owner) {
         this.name = name;
         this.type = getClass().getSimpleName();
         this.birthDate = birthDate;
@@ -67,16 +67,16 @@ public abstract class Animal {
     private void sleep(){
         System.out.println("Animal is sleeping.");
     }
-    public abstract void lifeCircle();//{
+    //public abstract void lifeCircle();//{
 //        wakeUp();
 //        eat();
 //        play();
 //        sleep();
    // }
-    public void slither(){
-        System.out.println("I slither so weird... to bite youuu!!!!");
-    }
-    public void fly(){
-        System.out.print("I hover above you all.");
-    }
+//    public void slither(){
+//        System.out.println("I slither so weird... to bite youuu!!!!");
+//    }
+//    public void fly(){
+//        System.out.print("I hover above you all.");
+//    }
 }

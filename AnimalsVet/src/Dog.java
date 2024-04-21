@@ -1,13 +1,15 @@
 import java.time.LocalDate;
 import java.util.List;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements GoAble{
     public Dog(String name, String type, LocalDate birthDate, List<String> vaccinates, String illness, String owner) {
-        super(name, type, birthDate, vaccinates, illness, owner);
+        super(name, birthDate, vaccinates, illness, owner);
     }
 
     @Override
-    public void lifeCircle() {
-
+    public double goOnLegs() {
+        System.out.printf("%s going", type);
+        return 0;
     }
+
 }
